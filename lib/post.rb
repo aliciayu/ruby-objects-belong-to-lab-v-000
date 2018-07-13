@@ -1,9 +1,17 @@
 class Post
- attr_accessor :title; :author
+ attr_accessor :title
 
- def initialize
+ def initialize(title)
    @title = title
+   @posts = []
  end
 
+ def add_post(post)
+   @posts << post
+   post.author = self
+ end
 
+ def posts
+   @posts
+ end
 end

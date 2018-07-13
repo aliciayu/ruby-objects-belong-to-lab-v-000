@@ -3,14 +3,5 @@ class Author
 
  def initialize(name)
    @name = name
-   @posts = []
- end
-
- def add_song(post)
-   @posts << post
- end
-
- def posts
-   @posts
  end
 end

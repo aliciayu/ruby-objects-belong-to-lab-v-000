@@ -3,7 +3,7 @@ class Author
 
  def initialize
    @name = name
-   @posr = post
+   @post = post
  end
 
 end

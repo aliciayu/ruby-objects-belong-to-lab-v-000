@@ -3,11 +3,10 @@ class Post
 
  def initialize
    @title = title
-   self.author = author
  end
 
- def add_post
-   @posts << post
- end
+ def author
+   self.author = author
+end
 
 end

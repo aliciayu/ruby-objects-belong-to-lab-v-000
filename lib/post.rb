@@ -3,6 +3,7 @@ class Post
 
  def initialize
    @title = title
+   self.author = author
  end
 
  def add_post
